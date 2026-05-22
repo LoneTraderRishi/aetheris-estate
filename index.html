@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aetheris Estate — Luxury Real Estate</title>
+  <title>Arkaa Realty — Luxury Real Estate</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
@@ -291,9 +291,12 @@
             >
               <div className="flex items-center justify-between">
                 {/* Logo */}
-                <div className="liquid-glass w-12 h-12 rounded-full flex items-center justify-center">
-                  <span className="font-heading italic text-white text-lg">a</span>
+                <div className="flex items-center gap-3">
+                <div className="liquid-glass w-12 h-12 rounded-full flex items-center justify-center overflow-hidden">
+                  <img src="arkaa-logo.jpg" alt="Arkaa Realty" className="w-full h-full object-cover" />
                 </div>
+                <span className="hidden md:inline font-heading italic text-white text-xl tracking-[-0.5px]">Arkaa Realty</span>
+              </div>
 
                 {/* Center Nav Links — liquid-glass pill */}
                 <div className="hidden md:flex liquid-glass rounded-full px-1.5 py-1.5 items-center gap-1">
@@ -323,7 +326,7 @@
                 transition={{ duration: 0.6, delay: 0.4, ease: 'easeOut' }}
               >
                 <span className="bg-white text-black px-3 py-1 text-xs font-semibold rounded-full">New</span>
-                <span className="text-sm text-white/90 pr-3 pl-2 font-body">10 Exclusive Properties Now Available</span>
+                <span className="text-sm text-white/90 pr-3 pl-2 font-body">10 Premium Properties by Arkaa Realty</span>
               </motion.div>
 
               {/* Headline */}
@@ -341,7 +344,7 @@
                 animate={{ filter: 'blur(0px)', opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8, ease: 'easeOut' }}
               >
-                Experience living spaces reimagined. Our curated collection of extraordinary properties brings architectural brilliance and natural beauty together — secure, stunning, and uniquely yours.
+                Experience living spaces reimagined by Arkaa Realty. Our curated collection of extraordinary properties brings architectural brilliance and natural beauty together — secure, stunning, and uniquely yours.
               </motion.p>
 
               {/* CTAs */}
@@ -449,7 +452,7 @@
                 Capabilities
               </motion.p>
               <BlurText
-                text="Real Estate Evolved"
+                text="Arkaa Realty Evolved"
                 as="h2"
                 className="font-heading italic text-white text-6xl md:text-7xl lg:text-[6rem] leading-[0.9] tracking-[-3px] text-left"
                 delay={0.1}
