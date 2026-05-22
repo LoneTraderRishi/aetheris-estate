@@ -292,10 +292,13 @@
               <div className="flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center gap-3">
-                <div className="liquid-glass w-12 h-12 rounded-full flex items-center justify-center overflow-hidden">
-                  <img src="arkaa-logo.jpg" alt="Arkaa Realty" className="w-full h-full object-cover" />
+                <div className="liquid-glass w-[180px] h-[56px] rounded-xl flex items-center justify-center overflow-hidden px-3 py-1.5">
+                  <img src="arkaa-logo.png" alt="Arkaa Realty" className="h-full w-auto object-contain" />
                 </div>
-                <span className="hidden md:inline font-heading italic text-white text-xl tracking-[-0.5px]">Arkaa Realty</span>
+                <div className="hidden md:flex flex-col leading-none">
+                  <span className="font-heading italic text-white text-2xl tracking-[-0.5px]">Arkaa</span>
+                  <span className="font-body text-white/70 text-[10px] uppercase tracking-[3px] -mt-0.5">Realty</span>
+                </div>
               </div>
 
                 {/* Center Nav Links — liquid-glass pill */}
